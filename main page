@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+.navbg{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f5f5f5;
+    background-repeat: repeat-x;
+   
+}
+
+.inside{
+    padding:20px 160px ;  
+    display: flex;  
+    justify-content: space-between;  
+}
+
+.brand-logo{
+    height: 60px;
+}
+
+.navtagitems{
+    display: flex;
+    align-items:center;
+}
+
+.navsearch{
+    width: 500px;
+    display: flex;
+}
+
+.navsearch-box{
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px;
+   border: 2px solid black;
+   padding: 20px; 
+   width: 500px;
+   height: 15px;
+
+}
+
+.navsearch-btn{
+    width: 80px;
+    height: 44px;
+    padding: 10px 20px;
+ 
+    border:none;
+    cursor: pointer;
+    background:black;
+    color: white;
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+fieldset{
+background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNc0PEhDpCbwUit34_hoROhmlN9m1j7QRH8w&usqp=CAU');
+background-repeat:no-repeat;
+background-size:cover;
+}
+.row {
+  display: flex;}
+.column{
+  flex: 33.33%;
+  padding: 5px;}
+
+</style>
+</head>
+<body>
+<nav class="navbg">
+<div class="inside">
+    <img src="https://t3.ftcdn.net/jpg/03/03/31/22/240_F_303312284_f6U6TWdALPB3cwXZeORBSy6zTeOdqFcL.jpg" class="brand-logo" alt="">
+    <div class="navtagitems">
+        <div class="navsearch ">
+           <input type="text"  class="navsearch-box" placeholder="search brand, product">
+            <button class="navsearch-btn" onclick="document.location=''"><b>Search</b></button>
+        </div>
+        <a href="#"><img src="img/user.png" alt=""></a>
+        <a href="#"><img src="img/cart.png" alt=""></a>
+    </div>
+</div>
+</nav>
+<fieldset>
+<p align="center"><img src="https://t3.ftcdn.net/jpg/03/03/31/22/240_F_303312284_f6U6TWdALPB3cwXZeORBSy6zTeOdqFcL.jpg" height="360"></p>
+</fieldset>
+<br>
+<p></p><p style="font-size:xx-large;"><b>LenovoLaptop</b> </p>
+<div class="row">
+    
+    <div class="column">
+        <p class="column" "><img src="https://randomuser.me/api/portraits/med/men/53.jpg" height="304" width="304" ><br><b> name max <br> maxence.dupont@example.com</b></p>
+    </div>
+    <div class="column">
+        <p class="column" "><img src="https://randomuser.me/api/portraits/med/men/53.jpg" height="304" width="304" ><br><b> name max <br> maxence.dupont@example.com</b></p>
+        
+    </div>
+</div>
+<div class="row">
+    
+    <div class="column">
+        <p class="column"><img src="https://randomuser.me/api/portraits/med/women/73.jpg" height="304" width="304" onclick=" "><br><b>name max <br> maxence.dupont@example.com</b></p>
+    </div>
+    <div class="column">
+        <p class="column"><img src="https://randomuser.me/api/portraits/med/women/88.jpg" height="304" width="304" onclick=""><br><b>name max <br> maxence.dupont@example.com</b></p>
+    </div>
+    
+</div>       
+</p>
+
+
+</body>
+</html>
